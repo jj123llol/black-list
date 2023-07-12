@@ -1,0 +1,1 @@
+--if game.Players.LocalPlayer.Name == "McL1vin_f0gell" then game.Players.LocalPlayer:Kick("Blacklisted") end
