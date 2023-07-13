@@ -1,1 +1,7 @@
---if game.Players.LocalPlayer.Name == "McL1vin_f0gell" then game.Players.LocalPlayer:Kick("Blacklisted") end
+local p = game.Players.LocalPlayer
+local black ={
+--"McL1vin_f0gell", (the lines mean ur not blacklisted yet)
+}
+for i in pairs(black) do
+if p.Name == v then p:Kick("Blacklisted,alts will make u perm blacklisted with no chance of appeal") end
+end
