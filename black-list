@@ -1,7 +1,10 @@
 local p = game.Players.LocalPlayer
+local n = game.Players.LocalPlayer.Name
+print("checking if player "..n.." is on the blacklist...")
 local black ={
 --"McL1vin_f0gell", (the lines mean ur not blacklisted yet, in case ur a dumbass McL1vin_f0gell)
 }
 for i in pairs(black) do
 if p.Name == v then p:Kick("Blacklisted,alts will make u perm blacklisted with no chance of appeal") end
 end
+print("cplayer "..n.." is not on the blacklist!,loading script..")
