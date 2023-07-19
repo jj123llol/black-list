@@ -8,4 +8,4 @@ for i in pairs(black) do
 if p.Name == v then p:Kick("Blacklisted,alts will make u perm blacklisted with no chance of appeal") end
 end
 wait(0.1)
-print("cplayer "..n.." is not on the blacklist!,loading script..")
+print("player "..n.." is not on the blacklist!,loading script..")
