@@ -18,7 +18,7 @@ end
 wait(0.1)
 Notify("done!", "player "..n.." is not on the blacklist!,loading script..", 5)
 end
-Notify("WARNING", "USE FLUXUS IF U ARE NOT.", 5)
+Notify("WARNING", "RECOMMENDED FLUXUS.", 5)
 wait()
 if IsValyse then
 local hwid = gethwid()
