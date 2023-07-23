@@ -25,6 +25,11 @@ local hwid = gethwid()
 setclipboard(hwid)
 print(hwid)
 verify()
+elseif IsElectron then
+local hwid = gethwid()
+setclipboard(hwid)
+print(hwid)
+verify()
 else
 local http_request = syn and syn.request or request or fluxus.request;
 local body = http_request({Url = 'https://httpbin.org/get'; Method = 'GET'}).Body;
